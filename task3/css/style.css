@@ -1,0 +1,232 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+h1{
+    letter-spacing: 5px;
+    font-weight: 200;
+    font-size: 30px;
+}
+
+i {
+    font-style: italic;
+    opacity: calc(75%);
+}
+
+nav{
+    background-color: #000;
+}
+
+nav li{
+    display: inline-flex;
+    list-style: none;
+    color:#fff;
+}
+
+nav a{
+    padding: 10px;
+    background: #000;
+    text-decoration: none;
+    font-size: 15px;
+    color:#fff;
+    display: flex;
+}
+
+nav a:hover{
+    background: #fff;
+    color: #000;
+}
+
+.images img {
+    width: 100%;
+    height: avto;
+}
+
+.container {
+    width: 100%;
+    height: auto;
+    position: relative;
+}
+
+.losAngeles {
+    position: absolute;
+    top: 620px;
+    bottom:auto;
+    right:65% ;
+    left: 35%;
+    width:350px;
+    height: 50px;
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    flex-direction: column;
+    color: #fff;
+}
+
+/* The Band */
+
+.theBand{
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    padding: 50px;
+}
+
+.theBand .text p {
+    text-align: justify;
+    font-size: 17px;
+}
+
+.text{
+    width: 900px;
+    height: avto;
+}
+
+.img {
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    text-align: center;
+    width: 150px;
+    height: avto;
+    margin: 50px;
+}
+
+.theBandImgPosition{
+    display: flex;
+    justify-content: center; 
+}
+
+/* Your Date */
+
+.yourDates{
+    background: #000;
+    width: auto;
+    display: flex;
+    justify-content: center;
+    margin: auto;
+    align-items: center;
+    flex-direction: column;
+}
+
+.yourDates .yourDates-head {
+    color: #fff;
+    align-items: center;
+}
+
+.yourDates .table-main {
+    width: 800px;
+    height: auto;
+    color: #000;
+    background-color: #fff;
+    padding: 15px; 
+}
+
+
+
+.yourDates .yourDates-img-main{
+    padding-top: 40px;
+    padding-left: 280px;
+    padding-right: 280px;
+    width: 100%;
+    height: auto;
+    margin: auto;
+    display: flex;
+    justify-content: space-between;
+}
+.yourDates .yourDates-img-main .yourDates-img div .btn button{
+    padding: 10px;
+    font-size: 15px;
+    background: #000;
+    color: #fff;
+    border: none;
+    bottom: unset;
+    transition-duration: .1s;
+}
+
+.yourDates .yourDates-img-main .yourDates-img div .btn button:hover{
+    background: #CCCCCC;
+    color: #000;
+}
+
+.yourDates-img{
+    background:#fff;
+    margin-bottom: 100px;
+    width: 250px;
+    height: 400px;
+}
+
+.yourDates-img img {
+    width: 250px;
+    height: avto;
+}
+
+
+/* Contact */
+
+.contact {
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+}
+
+.contact .bdy{
+    height: 200px;
+    width: auto;
+    display: flex;
+    justify-content: center;
+}
+
+.contact .bdy .myContact{
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    margin: 50px;
+    padding: 20px;
+}
+
+.map img {
+    width: 100%;
+    height: avto;
+}
+
+.contact .bdy .form form{
+    position: relative;
+    height: 120px;
+    padding-left: 150px;
+    margin: 20px;
+}
+
+
+.contact .bdy .form form input {
+    padding: 5px;
+    margin: 5px;
+}
+
+.contact .bdy .form form button {
+    position: absolute;
+    top:auto;
+    bottom: 0;
+    left: auto;
+    right: 0;
+    padding: 10px;
+    transition-duration: .1s;
+    color: #fff;
+    background-color: #000;
+    border: none;
+}
+
+.contact .bdy .form form button:hover{
+    background-color: #ccc;
+    color: #000;
+}
+
+.contact .hed{
+    text-align: center;
+}
